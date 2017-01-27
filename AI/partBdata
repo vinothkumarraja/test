@@ -1,0 +1,15 @@
+countVec + linearSVM + l2                                               0.86      0.86      0.86       
+countVec + tfid + linearSVM + l1                                        0.89      0.89      0.88
+countVec + tfid + linearSVM + l2                                        0.92      0.92      0.91
+countVec + stopwords +linearSVM + l2                                    0.86      0.86      0.86 
+countVec + tfid + stopwords + linearSVM + l1                            0.89      0.89      0.89
+countVec + tfid + stopwords + linearSVM + l2                            0.92      0.92      0.91	
+countVec + stopwords + stemmer + linearSVM +l2                          0.86      0.86      0.86
+countVec + tfid + stopwords + stemmer + svm.SVC(kernel = "linear")      0.92      0.92      0.92
+countVec + rbf kernel                                                   0.44      0.52      0.45
+countVec + stopwords + rbf kernel                                       0.53      0.35      0.25
+countVec + poly                                                         0.44      0.30      0.16
+
+
+
+
